@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof (PlayerController))]
+[RequireComponent(typeof(GunController))]
 public class Player : MonoBehaviour
 {
 
@@ -11,11 +12,14 @@ public class Player : MonoBehaviour
     Camera viewCamera;
 
     PlayerController controller;
+    GunController gunController;
+
 
     
     void Start()
     {
         controller = GetComponent<PlayerController>();
+        gunController = GetComponent<GunController>();
         viewCamera = Camera.main;
 
     }
@@ -23,10 +27,12 @@ public class Player : MonoBehaviour
    
     void Update()
     {
+        //Movemnet input
         Vector3 moveInput = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
         Vector3 moneVelocity = moveInput.normalized * movespeed;
         controller.Move(moneVelocity);
 
+        //Look input
         Ray ray = viewCamera.ScreenPointToRay(Input.mousePosition);
         Plane groundPlane = new Plane(Vector3.up, Vector3.zero);
         float rayDistance;
@@ -38,5 +44,13 @@ public class Player : MonoBehaviour
             controller.LookAt(point);
 
         }
+
+        //Weapon input
+        if (Input.GetMouseButton(0))
+        {
+            gunController.Shoot();
+
+        }
+
     }
 }
