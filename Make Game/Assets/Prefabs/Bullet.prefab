@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4186088578788524174}
   - component: {fileID: 7016588158576712635}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -92,3 +92,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a8a42e81bd4641f8b4367a43e99d0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collisionMask:
+    serializedVersion: 2
+    m_Bits: 256
