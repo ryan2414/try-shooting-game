@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 331, y: 271}
   m_MaxSize: {x: 14001, y: 10021}
   vertical: 0
-  controlID: 17
+  controlID: 104
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 880, y: 492}
   m_MaxSize: {x: 18001, y: 14042}
   vertical: 0
-  controlID: 75
+  controlID: 15
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -296,7 +296,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 1
-  controlID: 76
+  controlID: 16
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -322,7 +322,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 77
+  controlID: 17
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -441,19 +441,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Editor
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Editor
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/ryan/Documents/unity file/Git/Make Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9a340000
-    m_LastClickedID: 13466
+    m_SelectedIDs: ee380000
+    m_LastClickedID: 14574
     m_ExpandedIDs: 000000008e34000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -605,9 +605,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e4330000
-      m_LastClickedID: 13284
-      m_ExpandedIDs: 6afbffff
+      m_SelectedIDs: 8c380000
+      m_LastClickedID: 14476
+      m_ExpandedIDs: 90bcffff6ebdffff90c2ffff74d8ffff60fbffff8c380000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -715,13 +715,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.417712, y: 0.119900584, z: -0.055716336, w: 0.89890957}
+    m_Target: {x: 0.44720215, y: -0.5499187, z: 0.45944288, w: 0.5352682}
     speed: 2
-    m_Value: {x: 0.41771156, y: 0.11990046, z: -0.055716276, w: 0.8989086}
+    m_Value: {x: 0.4472021, y: -0.54991865, z: 0.45944282, w: 0.5352681}
   m_Size:
-    m_Target: 2.224959
+    m_Target: 7.3249607
     speed: 2
-    m_Value: 2.224959
+    m_Value: 7.3249607
   m_Ortho:
     m_Target: 0
     speed: 2
