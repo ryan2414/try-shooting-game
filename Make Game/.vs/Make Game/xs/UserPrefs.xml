@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{1A788B74-FC43-734E-AFFA-654DCC212EE0}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Projectile.cs">
     <Files>
-      <File FileName="Assets/Scripts/Enemy.cs" Line="107" Column="63" />
-      <File FileName="Assets/Scripts/Spawner.cs" Line="48" Column="43" />
-      <File FileName="Assets/Scripts/LivingEntity.cs" />
+      <File FileName="Assets/Scripts/Enemy.cs" Line="102" Column="14" />
+      <File FileName="Assets/Scripts/Spawner.cs" />
+      <File FileName="Assets/Scripts/LivingEntity.cs" Line="29" Column="26" />
+      <File FileName="Assets/Scripts/IDamaneable.cs" Line="9" Column="28" />
+      <File FileName="Assets/Scripts/Projectile.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +13,7 @@
           <Node name="Make Game" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Enemy.cs" selected="True" />
+                <Node name="Projectile.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -21,7 +23,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="02e49d6c-0618-4efb-a3da-000319561d77" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ea470580-adef-43d5-94e5-3d92fda229a0" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
